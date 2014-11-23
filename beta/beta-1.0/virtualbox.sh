@@ -1,8 +1,8 @@
 #!/bin/bash
 #Version 1.0
 #VirtualBox installer and PHP VirtualBox installer
-wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
-apt-get install virtualbox-4.3
+
+apt-get install -y virtualbox-4.3
 wget download.virtualbox.org/virtualbox/4.3.20/Oracle_VM_VirtualBox_Extension_Pack-4.3.20-96996.vbox-extpack
 VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-4.3.20-96996.vbox-extpack
 echo "\033[7;36mPassword is 'pass', if not you need to modify the conf file\033[0m"
