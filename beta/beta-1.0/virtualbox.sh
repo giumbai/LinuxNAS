@@ -1,6 +1,9 @@
 #!/bin/bash
 #Version 1.0
 #VirtualBox installer and PHP VirtualBox installer
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian trusty contrib"
+apt-get update 
 
 apt-get install -y virtualbox-4.3
 wget download.virtualbox.org/virtualbox/4.3.20/Oracle_VM_VirtualBox_Extension_Pack-4.3.20-96996.vbox-extpack
