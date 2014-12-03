@@ -56,7 +56,7 @@ INS=$(echo "System compatibility succesfully checked, will now start the install
 	done
 	#Installing Plex media server
 	echo "$st tPlex Media Server is now installing $n"
-	dpkg --install --yes plex.deb 
+	source plex.sh
 	#The web interface
 	if
 	cp -r web-interface/* /var/www/html
