@@ -1,15 +1,17 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 	<!-- SLNAS Version 1.0 author:giumbai License GPL v2 -->
 <html>
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>SLNAS | Welcome</title>
-	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/foundation.css">
 	<script src="js/vendor/modernizr.js"></script>
 	<script>
 	function setHref() {
+	document.getElementById('plex2').href = window.location.protocol + "//" + window.location.hostname + ":32400/web/";
 	document.getElementById('plex').href = window.location.protocol + "//" + window.location.hostname + ":32400/web/";
+	document.getElementById('utorrent2').href = window.location.protocol + "//" + window.location.hostname + ":8080/gui/";
 	document.getElementById('utorrent').href = window.location.protocol + "//" + window.location.hostname + ":8080/gui/";
 	}
 	</script>
@@ -36,13 +38,13 @@
 			    <p>Remember that the username for utorrnet is admin with no password, if you want to modify it please do so from the utorrent settings.To start the server just run the start-nas command in terminal with root privilages (sudo start-nas) Don't forghet to modify the utorrent settings so that the new downloaded files will go to /var/www/html/Download</p>
 			        <div class="row">
 			        	<div class="large-4 medium-4 columns">
-			    		<p><a href="https://linuxnas.readthedocs.org">Documentation</a><br />Everything you need to know can be found at linuxnas.readthedocs.org</p>
+			    		<p><a href="https://linuxnas.readthedocs.org">Documentation</a><br>Everything you need to know can be found at linuxnas.readthedocs.org</p>
 			    		</div>
 			        	<div class="large-4 medium-4 columns">
-			        		<p><a href="https://github.com/giumbai/LinuxNAS">Github</a><br />Latest code, issue reports, feature requests and more.</p>
+			        		<p><a href="https://github.com/giumbai/LinuxNAS">Github</a><br>Latest code, issue reports, feature requests and more.</p>
 			        	</div>
 			        	<div class="large-4 medium-4 columns">
-			        		<p><a href="#">@giumbai</a><br />For more information you can contact me at github username giumbai</p>
+			        		<p><a href="#">@giumbai</a><br>For more information you can contact me at github username giumbai</p>
 			        	</div>        
 					</div>
 
@@ -54,13 +56,13 @@
 	    <div class="panel">
 			<div class="row">
 				<div class="large-1 medium-1 columns">
-					<a href=":8080/gui/" id="utorrent"><img src="img/utorrent-logo.png" height="42" width="42"></a>
+					<a href=":8080/gui/" id="utorrent2"><img src="img/utorrent-logo.png" height="42" width="42" alt="Utorrent"></a>
 				</div>
 				<div class="large-2 medium-2 columns">
-					<a href=":32400/web/" id="plex"><img src="img/plex-logo.png" height="42" width="80"></a>
+					<a href=":32400/web/" id="plex2"><img src="img/plex-logo.png" height="42" width="80" alt="Plex"></a>
 				</div>
 				<div class="large-1 medium-1 columns">
-					<a href="/vbox/"><img src="img/virtualbox_logo.png" height="42" width="42"></a>
+					<a href="/vbox/"><img src="img/virtualbox_logo.png" height="42" width="42" alt="Vbox"></a>
 				</div>
 			</div>
 		</div>
