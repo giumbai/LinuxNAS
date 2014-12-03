@@ -1,0 +1,50 @@
+<DOCTYPE html>
+	<!-- SLNAS Version 1.0 author:giumbai License GPL v2 -->
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>SLNAS | Welcome</title>
+	<link rel="stylesheet" href="css/foundation.css" />
+	<script src="js/vendor/modernizr.js"></script>
+<script>
+function setHref() {
+document.getElementById('plex').href = window.location.protocol + "//" + window.location.hostname + ":32400/web/";
+document.getElementById('utorrent').href = window.location.protocol + "//" + window.location.hostname + ":8080/gui/";
+}
+</script>
+
+</head>
+
+<body onload="setHref()">
+	<nav class="top-bar" data-topbar role="navigation"> <ul class="title-area"> <li class="name"> <h1><a href="#">SimpleLinuxNAS</a></h1> </li> <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li> </ul> <section class="top-bar-section"> 
+		<!-- Right Nav Section --> <ul class="right"> <li><a href="/web/" id="plex">PlexMediaServer</a></li> <li class="has-dropdown"> <a href="#">Documentation</a> <ul class="dropdown"> <li><a href="https://github.com/giumbai/LinuxNAS/wiki">Wiki</a></li> <li><a href="https://linuxnas.readthedocs.org">Tutorials</a></li> </ul> </li> </ul> <ul class="right"> <li><a href="/gui/" id="utorrent">Utorrent</a></li> </ul> </section> </nav>
+		    <div class="row">
+		      <div class="large-12 columns">
+		        <h1>Welcome to LinuxNAS</h1>
+		      </div>
+		    </div>
+		    
+		    <div class="row">
+		      <div class="large-12 columns">
+		      	<div class="panel">
+			        <h3>Hi this is the main Web interface! </h3>
+			        <p>To get going, here is where you will find how to connect to your torrent client and Plex Sserver</p>
+			        <p>Remember that the username for utorrnet is admin with no password, if you want to modify it please do so from the utorrent settings. Don't forghet to modify the utorrent settings so that the new downloaded files will go to /var/www/html/Download</p>
+			        <div class="row">
+			        	<div class="large-4 medium-4 columns">
+			    		<p><a href="https://linuxnas.readthedocs.org">Documentation</a><br />Everything you need to know can be found at linuxnas.readthedocs.org</p>
+			    	</div>
+			        	<div class="large-4 medium-4 columns">
+			        		<p><a href="https://github.com/giumbai/LinuxNAS">Github</a><br />Latest code, issue reports, feature requests and more.</p>
+			        	</div>
+			        	<div class="large-4 medium-4 columns">
+			        		<p><a href="#">@giumbai</a><br />For more information you can contact me at ghit username giumbai</p>
+			        	</div>        
+							</div>
+		      	</div>
+		      </div>
+		    </div>
+</body>
+</html>
+
