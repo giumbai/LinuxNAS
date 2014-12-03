@@ -63,4 +63,5 @@ INS=$(echo "System compatibility succesfully checked, will now start the install
 	echo "#########################################################"
 	echo "Now you can go to your local server ip address http://ip"
 	echo "https://github.com/giumbai/LinuxNAS"
+	echo "Use the comnad start-nas to start utorrent and VirtualBox"
 	echo "#########################################################"
