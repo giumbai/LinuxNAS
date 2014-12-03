@@ -66,4 +66,3 @@ INS=$(echo "System compatibility succesfully checked, will now start the install
 	echo "Now you can go to your local server ip address http://ip"
 	echo "https://github.com/giumbai/LinuxNAS"
 	echo "#########################################################"
-	banner giumbai
