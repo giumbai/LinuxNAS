@@ -58,9 +58,7 @@ INS=$(echo "System compatibility succesfully checked, will now start the install
 	echo "$st tPlex Media Server is now installing $n"
 	source plex.sh
 	#The web interface
-	if
 	cp -r web-interface/* /var/www/html
-	then
 	clear 
 	echo "#########################################################"
 	echo "Now you can go to your local server ip address http://ip"
