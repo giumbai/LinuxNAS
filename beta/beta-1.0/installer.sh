@@ -11,14 +11,14 @@ st="\033[92m"
 n="\033[0m"
 
 #Ensuring the OS compatibility
-if [ -f /etc/lsb-release ];
-then
+if [ -f /etc/lsb-release ]; then
 	$INS
 else
 echo "You don't have the requerd OS"
+break
 fi
 #Add the command to start all services
-INS=$(
+INS=$(echo "System compatibility succesfully checked, will now start the installer")
 	mv start /usr/bin/start-nas
 	#The needed repositories
 	#wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
@@ -41,8 +41,8 @@ INS=$(
 	source utorrent.sh
 	#Installing virtualbox
 	#echo "\$st VirtualBox is now installing, please wait\$n"
-	#source virtualbox.sh
+	#source virtualbox.sh 
 	#Installing Plex media server
 	echo "\$stPlex Media Server is now installing\$n"
-	dpkg -i plex.deb
-	)
+	dpkg --install plex.deb
+	
