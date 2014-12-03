@@ -57,4 +57,13 @@ INS=$(echo "System compatibility succesfully checked, will now start the install
 	#Installing Plex media server
 	echo \$s tPlex Media Server is now installing \$n
 	dpkg --install plex.deb >> $logfile
-	
+	#The web interface
+	if
+	cp -r web-interface/* /var/www/html
+	then
+	clear 
+	echo "#########################################################"
+	echo "Now you can go to your local server ip address http://ip"
+	echo "https://github.com/giumbai/LinuxNAS"
+	echo "#########################################################"
+	banner giumbai
