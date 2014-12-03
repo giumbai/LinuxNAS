@@ -40,10 +40,10 @@ INS=$(echo "System compatibility succesfully checked, will now start the install
 	apt-get install -f >> $logfile
 	service apache2 restart >> $logfile
 	#Installing Samba
-	echo "$st Samba is now installing, please wait $n"
+	echo "### Samba is now installing, please wait ###"
 	source samba.sh >> $logfile
 	#Installing  Utorrent
-	echo "$st Utorrent is now installing, please wait $n"
+	echo "### Utorrent is now installing, please wait ###"
 	source utorrent.sh >> $logfile
 	#Installing virtualbox
 	select option in "Install_VirtualBox" "Do_not_install_VirtualBox" "quit"
@@ -56,7 +56,7 @@ INS=$(echo "System compatibility succesfully checked, will now start the install
 		esac
 	done
 	#Installing Plex media server
-	echo "$st tPlex Media Server is now installing $n"
+	echo "### Plex Media Server is now installing ###"
 	source plex.sh
 	#The web interface
 	cp -r web-interface/* /var/www/html
