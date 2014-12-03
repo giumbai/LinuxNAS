@@ -8,7 +8,9 @@ apt-get update
 apt-get install -y virtualbox-4.3
 wget download.virtualbox.org/virtualbox/4.3.20/Oracle_VM_VirtualBox_Extension_Pack-4.3.20-96996.vbox-extpack
 VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-4.3.20-96996.vbox-extpack
-echo "\033[7;36mPassword is 'pass', if not you need to modify the conf file\033[0m"
+echo "##############################################################################"
+echo "\033[7;36m You need to set up the password 'pass', if you don't then you need to modify the conf file \033[0m"
+echo "##############################################################################"
 adduser --ingroup vboxusers vbox
 wget 'http://downloads.sourceforge.net/project/phpvirtualbox/phpvirtualbox-4.3-1.zip' -O phpvirtualbox.zip
 unzip phpvirtualbox.zip -d /var/www/html/

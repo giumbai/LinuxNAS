@@ -15,9 +15,9 @@ Recommendation: you should use a fresh install of any of the above supported OS,
 • Local network shared space<br>
 • Virtualization (optional)<br>
 • Plex Media Server
-Explanation: you can download and manage all your torrents from a web interface, immediately after download you can play any movie on you TV, PC, Laptop, Tablet, Phone via the local network. Optionally you can manage virtual machine via the web Browser (Mozilla Firefox, Chrome, Internet explorer, etc). You can use the Web Interface via the internet so that you can start downloading you favorite movie even before you get home. 
+Explanation: you can download and manage all your torrents from a web interface, immediately after download you can play/stream any movie on you TV, PC, Laptop, Tablet, Phone via the local network. Optionally you can manage virtual machine via the web Browser (Mozilla Firefox, Chrome, Internet explorer, etc). You can use the Web Interface via the internet so that you can start downloading you favorite movie even before you get home. 
 
-##How to install:<br>
+##How to install (only 5 minutes):<br>
 Run the folowing commands
 ```
 sudo -i
@@ -27,4 +27,4 @@ unzip master.zip
 cd LinuxNAS-master/beta/beta-1.0
 ./installer.sh
 ```
-And this is all!
+And this is all! For more detalies in how to set up go to our wiki page (https://github.com/giumbai/LinuxNAS/wiki).
