@@ -4,7 +4,7 @@
 #The script is under GPL v2 License
 #For now it runs only on a x64 ubuntu 14.04 
 #Created by GIUMBAI
-
+set -v
 #Variables
 st2="\033[91;40m"
 st="\033[92m"
