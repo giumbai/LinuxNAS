@@ -46,11 +46,12 @@ INS=$(echo "System compatibility succesfully checked, will now start the install
 	echo "$st Utorrent is now installing, please wait $n"
 	source utorrent.sh >> $logfile
 	#Installing virtualbox
-	select option in "Install_VirtualBox" "Do_not_install_VirtualBox"
+	select option in "Install_VirtualBox" "Do_not_install_VirtualBox" "quit"
 	do
 		case "${option}" in
 			Install_VirtualBox) source virtualbox.sh;;
 			Do_not_install_VirtualBox) break ;;
+			quit) break ;;
 			*) echo "VirtualBox will not be installed!";;
 		esac
 	done
