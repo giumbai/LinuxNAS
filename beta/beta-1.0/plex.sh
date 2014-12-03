@@ -1,2 +1,2 @@
 #!/bin/bash
-dpkg --install plex.deb
+dpkg --install -p plex.deb
