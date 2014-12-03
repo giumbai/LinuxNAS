@@ -3,7 +3,7 @@ LinuxNAS
 
 This is a simple Linux NAS script that makes it possible for everyone to have the best home network solutions. It uses open source linux apps under one interface.
 ##Minimum system requirements:<br>
-• Supported OS: Ubuntu (14.04);<br>
+• Supported OS: Ubuntu (14.04) 64bit;<br>
 •	Processor: 1 GHz (for the virtualization needs VT-x);<br>
 •	RAM: 512 MB; <br>
 •	Hard disk space: 15 GB <br>
