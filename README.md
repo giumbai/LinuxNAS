@@ -18,3 +18,13 @@ Recommendation: you should use a fresh install of any of the above supported OS,
 Explanation: you can download and manage all your torrents from a web interface, immediately after download you can play any movie on you TV, PC, Laptop, Tablet, Phone via the local network. Optionally you can manage virtual machine via the web Browser (Mozilla Firefox, Chrome, Internet explorer, etc). You can use the Web Interface via the internet so that you can start downloading you favorite movie even before you get home. 
 
 ##How to install:<br>
+Run the folowing commands
+```
+sudo -i
+wget https://github.com/giumbai/LinuxNAS/archive/master.zip
+apt-get install unzip
+unzip LinuxNAS-master.zip
+cd LinuxNAS-master/beta/beta-1.0
+./installer.sh
+```
+And this is all!
