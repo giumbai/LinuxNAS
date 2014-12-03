@@ -40,23 +40,23 @@ INS=$(echo "System compatibility succesfully checked, will now start the install
 	apt-get install -f >> $logfile
 	service apache2 restart >> $logfile
 	#Installing Samba
-	echo \$st Samba is now installing, please wait\$n
+	echo "$st Samba is now installing, please wait $n"
 	source samba.sh >> $logfile
 	#Installing  Utorrent
-	echo \$st Utorrent is now installing, please wait\$n
+	echo "$st Utorrent is now installing, please wait $n"
 	source utorrent.sh >> $logfile
 	#Installing virtualbox
 	select option in "Install_VirtualBox" "Do_not_install_VirtualBox"
 	do
-		case $option in
+		case "${option}" in
 			Install_VirtualBox) source virtualbox.sh;;
-			Do_not_install_VirtualBox) echo "VirtualBox will not be installed!";;
+			Do_not_install_VirtualBox) break ;;
 			*) echo "VirtualBox will not be installed!";;
 		esac
 	done
 	#Installing Plex media server
-	echo \$s tPlex Media Server is now installing \$n
-	dpkg --install plex.deb >> $logfile
+	echo "$st tPlex Media Server is now installing $n"
+	dpkg --install --yes plex.deb 
 	#The web interface
 	if
 	cp -r web-interface/* /var/www/html
