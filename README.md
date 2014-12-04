@@ -28,3 +28,9 @@ cd LinuxNAS-master/beta/beta-1.0
 ./installer.sh
 ```
 And this is all! For more detalies in how to set up go to our wiki page (https://github.com/giumbai/LinuxNAS/wiki).
+
+### Credits
+• Utorrent (http://www.utorrent.com/)
+• Foundation (https://github.com/zurb/foundation)
+• PlexMediaServer (https://plex.tv/)
+• Ubuntu (http://www.ubuntu.com/server)
