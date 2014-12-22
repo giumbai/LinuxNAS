@@ -1,2 +1,4 @@
 #!/bin/bash
-dpkg --install -p plex.deb
+apt-get install gdebi gdebi-core -y
+gdebi plex.deb
+

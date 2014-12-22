@@ -56,7 +56,7 @@ INS=$(echo "System compatibility succesfully checked, will now start the install
 	done
 	#Installing Plex media server
 	echo "### Plex Media Server is now installing ###"
-	#source plex.sh
+	source plex.sh
 	#The web interface
 	cp -r web-interface/* /var/www/html
 	clear 
@@ -64,5 +64,6 @@ INS=$(echo "System compatibility succesfully checked, will now start the install
 	echo "Now you can go to your local server ip address http://ip"
 	echo "https://github.com/giumbai/LinuxNAS"
 	echo "Use the comnad start-nas to start utorrent and VirtualBox"
-	echo "Run dpkg -i plex.deb"
+	echo "Run dpkg -i plex.deb it's no need for this now, if the" 
+	echo "installer encounters any problen just run apt-get install -y"
 	echo "#########################################################"
