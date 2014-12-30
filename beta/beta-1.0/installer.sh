@@ -5,6 +5,7 @@
 #For now it runs only on a x64 ubuntu 14.04 
 #Created by GIUMBAI
 #Variables
+INS=$(echo "System compatibility succesfully checked, will now start the installer")
 st2="\033[91;40m"
 st="\033[92m"
 n="\033[0m"
@@ -23,7 +24,6 @@ echo "You don't have the requerd OS"
 break
 fi
 #Add the command to start all services
-INS=$(echo "System compatibility succesfully checked, will now start the installer")
 	sleep 3
 	mv start /usr/bin/start-nas >> $logfile
 
