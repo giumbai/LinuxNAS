@@ -18,7 +18,7 @@ EOF
 
 #Ensuring the OS compatibility
 if [ -f /etc/lsb-release ]; then
-	$INS
+echo $INS
 else
 echo "You don't have the requerd OS"
 break
