@@ -5,7 +5,7 @@ First off all you don't need to have any knowledge of Linux operating system to 
 ## Ubuntu installation
 
 ![Screenshot](img/ubuntu.jpeg)
-
+#
 
 For installing the Operating System you should follow heading 3 from the next link, remember just for the installation of ubuntu, nothing more.
 https://www.howtoforge.com/perfect-server-ubuntu-14.04-apache2-php-mysql-pureftpd-bind-dovecot-ispconfig-3
@@ -33,11 +33,11 @@ After the installation has finished you should follow those commands to install 
 From now on it's very simple just follow the information from the screen and answer accordingly with what you want to install. Best practice you answer all yes (y) and when asked for virtual box, if you want it select the corresponding number or quit, the installer will continue with the next process. Don't forget to get the plex mobile application, i find it very useful. 
 
 ##Useful links
-http://www.makeuseof.com/tag/plex-a-manual-your-media-with-style/#chapter-3
+*http://www.makeuseof.com/tag/plex-a-manual-your-media-with-style/#chapter-3
 
-http://download.virtualbox.org/virtualbox/UserManual.pdf
+*http://download.virtualbox.org/virtualbox/UserManual.pdf
 
-http://www.ubuntu.com/download/desktop/install-ubuntu-desktop
+*http://www.ubuntu.com/download/desktop/install-ubuntu-desktop
 
 
 
