@@ -6195,3 +6195,7 @@ th.hide-for-touch {
   height: 30px;
   width: 30px;
 }
+.br {
+  border-style: dashed;
+  border: 2px;
+}
