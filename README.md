@@ -27,7 +27,7 @@ unzip master.zip
 cd LinuxNAS-master/Stable/Stable_1.1
 ./installer.sh
 ```
-And this is all! For more detalies in how to set up go to our wiki page (https://github.com/giumbai/LinuxNAS/wiki).
+And this is all! For more detalies in how to set up go to our Docs page (http://linuxnas.readthedocs.org/en/Documents/).
 
 ### Credits
 • Utorrent (http://www.utorrent.com/)
