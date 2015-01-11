@@ -1,0 +1,3 @@
+#!/bin/bash
+utserver -settingspath /opt/utorrent/ &
+/etc/init.d/vboxweb-service start

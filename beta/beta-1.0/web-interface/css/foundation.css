@@ -6189,3 +6189,13 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+
+.backg {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+}
+.br {
+  border-style: dashed;
+  border: 2px;
+}

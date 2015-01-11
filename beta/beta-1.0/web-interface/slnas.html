@@ -15,7 +15,13 @@
 	document.getElementById('utorrent').href = window.location.protocol + "//" + window.location.hostname + ":8080/gui/";
 	}
 	</script>
-
+<style>
+body {
+    background-image: url("img/bg.png");
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+</style>
 </head>
 <body onload="setHref()">
 	<!-- Navbar -->
@@ -34,20 +40,22 @@
 		<div class="large-12 columns">
 		    <div class="panel">
 			    <h3>Hi, this is the main Web interface! </h3>
-			    <p>To get going, here is where you will find how to connect to your torrent client and Plex Sserver</p>
+			    <p>To get going, here is where you will find how to connect to your torrent client and Plex Server</p>
 			    <p>Remember that the username for utorrnet is admin with no password, if you want to modify it please do so from the utorrent settings.To start the server just run the start-nas command in terminal with root privilages (sudo start-nas) Don't forghet to modify the utorrent settings so that the new downloaded files will go to /var/www/html/Download</p>
 			        <div class="row">
 			        	<div class="large-4 medium-4 columns">
-			    		<p><a href="https://linuxnas.readthedocs.org">Documentation</a><br>Everything you need to know can be found at linuxnas.readthedocs.org</p>
+			    		<p><a href="https://linuxnas.readthedocs.org" target="_blank">Documentation</a><br>Everything you need to know can be found at linuxnas.readthedocs.org</p>
 			    		</div>
 			        	<div class="large-4 medium-4 columns">
-			        		<p><a href="https://github.com/giumbai/LinuxNAS">Github</a><br>Latest code, issue reports, feature requests and more.</p>
+			        		<p><a href="https://github.com/giumbai/LinuxNAS" target="_blank">Github</a><br>Latest code, issue reports, feature requests and more.</p>
 			        	</div>
 			        	<div class="large-4 medium-4 columns">
 			        		<p><a href="#">@giumbai</a><br>For more information you can contact me at github username giumbai</p>
 			        	</div>        
 					</div>
-
+				<div class="small-12 br">
+				<!-- start feedwind code --><script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');</script><script type="text/javascript">(function() {var params = {rssmikle_url: "http://www.repeatserver.com/Users/giumbai/news.xml",rssmikle_frame_width: "800",rssmikle_frame_height: "auto",frame_height_by_article: "",rssmikle_target: "_blank",rssmikle_font: "Arial, Helvetica, sans-serif",rssmikle_font_size: "12",rssmikle_border: "on",responsive: "on",rssmikle_css_url: "",text_align: "left",text_align2: "left",corner: "off",scrollbar: "off",autoscroll: "on",scrolldirection: "up",scrollstep: "5",mcspeed: "20",sort: "New",rssmikle_title: "off",rssmikle_title_sentence: "",rssmikle_title_link: "",rssmikle_title_bgcolor: "#0066FF",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "#FFFFE8",rssmikle_item_bgimage: "",rssmikle_item_title_length: "55",rssmikle_item_title_color: "#693066",rssmikle_item_border_bottom: "on",rssmikle_item_description: "on",item_link: "on",rssmikle_item_description_length: "150",rssmikle_item_description_color: "#C45132",rssmikle_item_date: "off",rssmikle_timezone: "Etc/GMT",datetime_format: "%b %e, %Y %l:%M:%S %p",item_description_style: "html",item_thumbnail: "full",article_num: "15",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: ""};feedwind_show_widget_iframe(params);})();</script><div style="font-size:10px; text-align:center; "><a href="http://feed.mikle.com/" target="_blank" style="color:#CCCCCC;"></a><!--Please display the above link in your web page according to Terms of Service.--></div><!-- end feedwind code -->
+				</div>
 		    </div>
 		</div>
 	</div>
