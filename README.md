@@ -24,7 +24,7 @@ sudo -i
 wget https://github.com/giumbai/LinuxNAS/archive/master.zip
 apt-get install unzip
 unzip master.zip
-cd LinuxNAS-master/beta/beta-1.0
+cd LinuxNAS-master/Stable/Stable_1.1
 ./installer.sh
 ```
 And this is all! For more detalies in how to set up go to our wiki page (https://github.com/giumbai/LinuxNAS/wiki).
