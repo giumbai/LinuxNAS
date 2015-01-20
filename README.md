@@ -25,6 +25,14 @@ wget https://github.com/giumbai/LinuxNAS/archive/master.zip && apt-get install u
 ```
 And this is all! For more detalies in how to set up go to our Docs page (http://linuxnas.readthedocs.org/en/Documents/).
 
+### What features i will implement in the next version!
+* File Manager <br>
+* Owncloud <br>
+* XBMC <br>
+* PowerOff option from Web Interface <br>
+* A better web interface <br>
+* Console script for the web interface
+
 ### Credits
 • Utorrent (http://www.utorrent.com/)
 • Foundation (https://github.com/zurb/foundation)
