@@ -7,8 +7,8 @@ First off all you don't need to have any knowledge of Linux operating system to 
 ![Screenshot](img/ubuntu.jpeg)
 #
 
-For installing the Operating System you should follow heading 3 from the next link, remember just for the installation of ubuntu, nothing more.
-https://www.howtoforge.com/perfect-server-ubuntu-14.04-apache2-php-mysql-pureftpd-bind-dovecot-ispconfig-3
+For installing the Operating System you should follow heading 3 from the next link, remember just for the installation of ubuntu, nothing more. <br>
+<a href="https://www.howtoforge.com/perfect-server-ubuntu-14.04-apache2-php-mysql-pureftpd-bind-dovecot-ispconfig-3">https://www.howtoforge.com/perfect-server-ubuntu-14.04-apache2-php-mysql-pureftpd-bind-dovecot-ispconfig-3</a>
 
 
 ## Install commands
@@ -36,7 +36,7 @@ Now go to the server ip address http://192.168.1.50 and this is all.
 ![Screenshot](img/finish.png)
 
 ##Useful links
-*http://www.makeuseof.com/tag/plex-a-manual-your-media-with-style/#chapter-3
+*<a href="http://www.makeuseof.com/tag/plex-a-manual-your-media-with-style/#chapter-3">http://www.makeuseof.com/tag/plex-a-manual-your-media-with-style/#chapter-3</a>
 
 *http://download.virtualbox.org/virtualbox/UserManual.pdf
 
