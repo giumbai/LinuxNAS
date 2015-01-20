@@ -20,7 +20,8 @@ Explanation: you can download and manage all your torrents from a web interface,
 ##How to install (only 5 minutes):<br>
 Run the folowing commands
 ```
-sudo -i && wget https://github.com/giumbai/LinuxNAS/archive/master.zip && apt-get install unzip && unzip master.zip && bash LinuxNAS-master/Stable/Stable_1.1/installer.sh
+sudo -i
+wget https://github.com/giumbai/LinuxNAS/archive/master.zip && apt-get install unzip && unzip master.zip && bash LinuxNAS-master/Stable/Stable_1.1/installer.sh
 ```
 And this is all! For more detalies in how to set up go to our Docs page (http://linuxnas.readthedocs.org/en/Documents/).
 
