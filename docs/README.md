@@ -30,7 +30,10 @@ After the installation has finished you should follow those commands to install 
 
 
 
-From now on it's very simple just follow the information from the screen and answer accordingly with what you want to install. Best practice you answer all yes (y) and when asked for virtual box, if you want it select the corresponding number or quit, the installer will continue with the next process. Don't forget to get the plex mobile application, i find it very useful. 
+From now on it's very simple just follow the information from the screen and answer accordingly with what you want to install. Best practice you answer all yes (y) and when asked for virtual box, if you want it select the corresponding number or quit, the installer will continue with the next process. Don't forget to get the plex mobile application, i find it very useful. <br>
+
+Now go to the server ip address http://192.168.1.50 and this is all.
+![Screenshot](img/finish.png)
 
 ##Useful links
 *http://www.makeuseof.com/tag/plex-a-manual-your-media-with-style/#chapter-3
